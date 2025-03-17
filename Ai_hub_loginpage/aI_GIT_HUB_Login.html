@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hub - Login</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Changed font */
+            background-color: #0c1a2a; /* Darker background */
+            color: #e0e0e0; /* Light gray text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-image: url('ai_background.jpg'); /* Add background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+        }
+
+        .container {
+            background-color: rgba(20, 35, 50, 0.8); /* Slightly transparent dark container */
+            padding: 50px; /* Increased padding */
+            border-radius: 10px; /* More rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+            width: 350px; /* Fixed width */
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 150px; /* Adjust logo size */
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #64b5f6; /* Accent color for heading */
+            font-weight: 300; /* Lighter font weight */
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 22px); /* Account for padding and border */
+            padding: 12px;
+            margin-bottom: 25px;
+            border: 1px solid #37474f; /* Darker border */
+            border-radius: 8px;
+            background-color: #263238; /* Darker input background */
+            color: #e0e0e0;
+            transition: border-color 0.3s ease; /* Smooth border transition */
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: #64b5f6; /* Highlight on focus */
+        }
+
+        button {
+            background-color: #64b5f6; /* Accent color for button */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2592ec; /* Slightly lighter on hover */
+        }
+    
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="AI GIT HUB.jpg" alt="AI Hub Logo">
+        </div>
+        <h1>AI Hub Login</h1>
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
